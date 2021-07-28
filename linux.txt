@@ -1,0 +1,109 @@
+./ [nombre]							(Ejecuta un archivo que no esté en una ruta permitida)
+
+./ [nombre] &						(Lo ejecuta en segundo plano mostrando el codigo del proceso)
+
+>[nombre]							(Borra todo el contenido de un archivo)
+
+bc									(Calculadora simple)
+
+cal 								(Muestra un calendario con el dia actual)
+
+cal [numero mes] [año]				(Muestra un calendario especifico)
+
+cat [nombre]						(Muestra el contenido de un archivo)
+
+cat [nombre] |more					(Ver contenido en orden cuando pulsas la tecla [espacio])
+
+cd [ruta]							(Abrir la ruta especificada en la terminal)
+
+cd..								(Va a la ruta superior a tu ruta actual)
+
+clear								(Limpia la terminal)
+
+cp [nombre][ruta o nuevo nombre]	(Copiar un archivo a otra ruta y copiarlo con otro nombre)
+
+cp -r [directorio][ruta]			(Copia todo un directorio a la ruta que escojas)
+
+date								(Muestra la fecha actual)
+
+df									(Muestra todos los discos en tu equipo)
+
+du -sh								(Muestra el uso del disco)
+
+echo "texto" >[archivo]				(Crea cadenas de texto en el archivo que escojas)
+
+echo "texto" >>[archivo]			(Evita sobreescribir el contenido actual del archivo)
+
+echo $PATH							(Visualiza el contenido de la variable PATH como cadena de texto)
+
+env									(Muestra todas las variables de ambiente del sistema)
+
+free -m								(Ver la memoria disponible)
+
+grep [palabra] [archivo]			(Ver contenido filtrado de algun archivo)
+
+grep -v [palabra] [archivo]			(Muestra todo exepto la palabra filtrada)
+
+head [nombre]						(Muestra las 10 primeras lineas de texto del archivo)
+
+history								(Muestra el historial de comandos utilizados)
+
+history |grep [palabra]				(Muestra un historial filtrado)
+
+ip -4 a								(Muestra todas las intrfaces de red ipv4)
+
+kill -9 [proceso]					(Se elimina el proceso especificado [CUIDADO])
+
+less [nombre]						(Similar a [cat], pero te desplazas con las flechas)
+
+ls									(Listado simple de los elementos en la ruta actual)
+
+ls -l								(Ver un listado largo de todos los archivos en la ruta actual)
+
+ls -la								(Muestra todos los archivos, incluso los archivos ocultos)
+
+man [comando]						(Indica la forma de uso y funciones de algun comando)
+
+mkdir [nombre]						(Crea un nuevo directorio en tu ruta actual)
+
+mv [nombre][ruta]					(Mover un archivo a la ruta que escojas)
+
+pwd									(Nos indica la ruta en donde estamos)
+
+ps -ef								(Nos indica todos los procesos en ejecucion)
+
+ps -ef|grep [nombre]				(Muestra los procesos que tu le especifiques)
+
+rm [nombre]							(Eliminar un archivo)
+
+rm -rf [nombre]						(Eliminar un directorio)
+
+sudo								(Otorgar permisos root)
+
+sudo apt-get update					(Actualizar todos los softwares)
+
+sudo apt-get upgrade				(Actualizar el sistema)
+
+sudo apt install [nombre]			(Instalar un software)
+
+sudo sysctl -w vm.drop_caches=3		(Liberar memoria)
+
+tail [nombre]						(Muestra las 10 ultimas lineas de texto de un archivo)
+
+top									(Muestra un monitoreo del sistema, para salir presiona [q])
+
+touch [nombre y extencion]			(Permite crear un archivo vacio en la ruta actual)
+
+unzip [nombre y extencion]			(Descomprime un archivo .zip)
+
+which [nombre]						(Muestra la ubicacion de un programa)
+
+w 									(Informacion detallada sobre los usuarios activos)
+
+who 								(Muestra todos los usuarios activos)
+
+whoami								(Te muestra el nombre del usuario actual)
+
+zip -r [nuevo nombre] [directorio]	(Comprimir un directorio a formato .szip)
+
+zipinfo [nombre y extencion]		(Muestra el contenido del zip sin descomprimirlo)
